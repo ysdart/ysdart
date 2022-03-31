@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Portfolio01.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <title>メモアプリケーション めもがえる</title>
+</head>
+<body>
+    <header class="header">
+        <div class="inner">
+            <div class="headerTitle">
+              <div class="mainTitle">メモアプリケーション めもがえる</div>
+              <div class="subTitle">WebApp</div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="mainFlex">
+            <div class="url left">URL :</div>
+            <div class="urlContent right"><a href="https://ysdart.net/works/memo_gaeru/index.php">https://ysdart.net/works/memo_gaeru/index.php</a></div>
+        </div>
+        <div class="mainFlex">
+            <div class="discription left">説明 :</div>
+            <div class="discriptionContent right">
+                <div class="leftContent"><img src="images/memogaeru01.png" alt=""></div>
+                <div class="rightContent">
+                    このWebアプリは基本的なCRUD要素を利用した、ログインログアウト機能や記事の作成/編集/削除機能の学習の為制作しました。
+                    <p>基本構成</p>
+                        <ul>
+                            <li>centos stream 8</li>
+                            <li>php 7.4.19</li>
+                            <li>mysql 8.0.26</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mainFlex">
+            <div class="discription left"></div>
+            <div class="discriptionContent right">
+                <div class="leftContent"><img src="images/memogaeru02.png" alt=""></div>
+                <div class="rightContent">
+                    ログインログアウト機能関連は、ログイン時ユーザー登録時にバリデーション機能を実装しています。
+                    またログイン、ユーザー登録以外のメインコンテンツでも実装していますが、SQLインジェクション対策としてサニタイズも実施しています。
+                </div>
+            </div>
+        </div>
+        <div class="mainFlex">
+            <div class="discription left"></div>
+            <div class="discriptionContent right">
+                <div class="leftContent"><img src="images/memogaeru03.png" alt=""></div>
+                <div class="rightContent">
+                    こちらのメインコンテンツ画面では左上の＋で新規メモを追加できます。左からメモを選択すると右の編集画面でタイトルと内容が表示されます。
+                    タイトル、内容を編集し右上の保存マークを押すことで修正を保存できます。またメモを選択した状態で右上のゴミ箱マークを押すとメモの削除ができます。
+                    ログアウトする際には左上のグレーのログアウトボタンを押すことでログアウトできます。
+                </div>
+            </div>
+        </div>
+        <div class="mainFlex">
+            <div class="skill left">使用技術 :</div>
+            <div class="skillContent right">
+                <img src="images/html.png" alt="">
+                <img src="images/css.png" alt="">
+                <img src="images/php.png" alt="">
+                <img src="images/mysql.png" alt="">
+            </div>
+        </div>
+        <a href="https://ysdart.net" class="home"><div>メインページへ</div></a>
+    </section>
+</body>
+</html>
