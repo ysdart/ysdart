@@ -1,6 +1,46 @@
 @media screen and (max-width: 959px) {
   /* 959px以下に適用されるCSS（タブレット用） */
+  #Profile .inner .profile {
+    display: block;
+  }
+  #Profile .inner .profile .r-p {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  #Works .inner .works a {
+    width: 45%;
+    margin: 5px auto;
+  }
 }
 @media screen and (max-width: 480px) {
   /* 480px以下に適用されるCSS（スマホ用） */
+  .header .headerTitle .mainTitle {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+  }
+
+  .header .menu a div {
+    display: none;
+  }
+
+  #Works .inner .works a {
+    width: 85%;
+    margin: 5px auto;
+  }
+
+  #Works .inner .works a .r-c {
+    display: none;
+  }
+
+  body section .innerTitle {
+    font-size: 36px;
+  }
+
+  #Contact .inner .title {
+    font-size: 24px;
+  }
 }

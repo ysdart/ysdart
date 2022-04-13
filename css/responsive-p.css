@@ -1,0 +1,53 @@
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+  section .mainFlex .discriptionContent .leftContent {
+    width: 45%;
+  }
+  section .mainFlex .discriptionContent .rightContent {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .header .headerTitle {
+    margin-top: 30px;
+  }
+  .header .headerTitle .mainTitle {
+    font-size: 36px;
+  }
+  .header .headerTitle .subTitle {
+    font-size: 24px;
+  }
+
+  section .mainFlex {
+    display: block;
+    margin: 0;
+  }
+  section .mainFlex .left {
+    display: none;
+  }
+
+  body section {
+    width: 90vw;
+    margin: 40px auto;
+  }
+
+  section .mainFlex {
+    display: block;
+    text-align: center;
+  }
+
+  section .mainFlex .discriptionContent {
+    display: block;
+    margin: 0 auto;
+  }
+
+  section .mainFlex .discriptionContent .leftContent {
+    width: 90%;
+  }
+
+  section .mainFlex .discriptionContent .rigthContent {
+    width: 90%;
+    margin: 0;
+  }
+}
