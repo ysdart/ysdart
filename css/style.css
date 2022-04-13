@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -31,13 +31,19 @@ body section .innerTitle {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#0a1e46), to(#5aa0ff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0a1e46),
+    to(#5aa0ff)
+  );
   background: linear-gradient(90deg, #0a1e46, #5aa0ff);
 }
 
@@ -50,13 +56,13 @@ body section .innerTitle {
   font-weight: bold;
   font-size: 50px;
   line-height: 1;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .header .headerTitle .subTitle {
   font-size: 20px;
   margin-top: 5px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .header .headerTitle .subTitle span {
@@ -71,10 +77,10 @@ body section .innerTitle {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   font-size: 24px;
 }
 
@@ -131,8 +137,8 @@ body section .innerTitle {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #Profile .inner .profile .discription {
@@ -154,10 +160,10 @@ body section .innerTitle {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #Profile .inner .profile .skill .images img {
@@ -191,10 +197,10 @@ body section .innerTitle {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #Works .inner .works a {
